@@ -6,14 +6,14 @@
 
 <head>
 <meta charset="UTF-8">
-<title>Gramado</title>
+<title>Search</title>
 
     <meta 
         name="viewport" 
         content="width=device-width, initial-scale=1.0">
     <meta 
         name="description" 
-        content="Gramado Organization">
+        content="Polar D8 Organization">
     <meta 
         name="author" 
         content="Fred Nora">
@@ -62,7 +62,8 @@
 <link rel="dns-prefetch" href="https://github.com/"/>
 
 <!-- Cool links -->
-<link href="./assets/css/gramado.css" rel="stylesheet">
+<link href="../assets/img/polard8.png" rel="icon" type="image/x-icon">
+<link href="../assets/css/gramado.css" rel="stylesheet">
 </head>
 
 <body>
@@ -70,20 +71,20 @@
     <!-- Navigation bar -->
     <nav class="gramado-nav">
         <ul>
-            <!-- 1: Developer -->
-            <li><a href="#section-1">Developer</a></li>
-            <!-- 2: Business person -->
-            <li><a href="#section-2">Business</a></li>
-            <!-- 3: Sales person -->
-            <li><a href="#section-3">Online communication</a></li>
             <!-- 4: User -->
             <li><a href="#section-4">User</a></li>
+            <!-- 3: Sales person -->
+            <li><a href="#section-3">Online communication</a></li>
+            <!-- 2: Business person -->
+            <li><a href="#section-2">Business</a></li>
+            <!-- 1: Developer -->
+            <li><a href="#section-1">Developer</a></li>
         </ul>
     </nav>
 
     <!-- Core module -->
     <div class="core">
-    <h1>Gramado Organization</h1>
+    <h1>Polar D8 Organization</h1>
 
     <br>
     <?php
@@ -111,20 +112,20 @@
         <br/>
         <a 
             class="button" 
-            href="https://github.com/gramado/gramado.github.io">
+            href="https://github.com/polard8/polard8.github.io">
             <img class="iconpos" 
                 width="20" 
                 height="20" 
                 src="https://github.com/fluidicon.png"> See code at GitHub
         </a>
-        
+
         <br/>
         <br/>
         <br/>
     </div>
 
 <!-- Cool scripts -->
-<script src="./assets/js/gramado.js"></script>
+<script src="../assets/js/gramado.js"></script>
 </body>
 
 </html>

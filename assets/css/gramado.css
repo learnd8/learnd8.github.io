@@ -51,6 +51,9 @@ a:hover {
   color: #0050a3;
 }
 
+img {
+    max-width: 100%;
+}
 
 /* 
  * Small screen: ------------------------------
@@ -85,8 +88,10 @@ a:hover {
 }
 
 .gramado-container {
+    /*container-type: inline-size;*/
     font-size: 4.4vw;
     text-align: center;
+    margin-inline: auto;
 }
 
 .gramado-header{
@@ -182,8 +187,10 @@ a:hover {
 }
 
 .gramado-container {
+    /*container-type: inline-size;*/
     font-size: 4.0vw;
     text-align: center;
+    margin-inline: auto;
 }
 
 .gramado-header{

@@ -6,14 +6,14 @@
 
 <head>
 <meta charset="UTF-8">
-<title>Gramado</title>
+<title>Polar D8</title>
 
     <meta 
         name="viewport" 
         content="width=device-width, initial-scale=1.0">
     <meta 
         name="description" 
-        content="Gramado Organization">
+        content="Polar D8 Organization">
     <meta 
         name="author" 
         content="Fred Nora">
@@ -69,14 +69,16 @@
 
     <div class="core">
     <!-- Header -->
-    <h1>Gramado Organization</h1>
+    <h1>Polar D8 Organization</h1>
 
     <br>
     <?php
-        $files = scandir(getcwd());
-        foreach ($files as $file)
+        $cwd = getcwd();
+        $file_list = scandir($cwd);
+        foreach ($file_list as $file)
         {
-            if ( is_dir($file) && ctype_alnum($file) )
+            if ( is_dir($file) && 
+                 ctype_alnum($file) )
             {
     ?>
 
